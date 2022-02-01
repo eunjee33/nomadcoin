@@ -1,0 +1,37 @@
+http://localhost:4000/
+
+###
+http://localhost:4000/status
+
+###
+http://localhost:4000/blocks
+
+###
+POST http://localhost:4000/blocks
+
+###
+POST http://localhost:4000/blocks
+
+{
+    "message": "Mine me!!"
+}
+
+###
+http://localhost:4000/blocks/1
+
+###
+POST http://localhost:4000/transactions
+
+{
+    "to":"ssallu",
+    "amount":20
+}
+
+###
+http://localhost:4000/mempool
+
+###
+http://localhost:4000/balance/3bebd6be4feb19ab0ec88039d950cc016f4fe4aa1ecc5513b324830d058972de107e8fcb653696fc75e1d0be34b83d05945b295f5d14e18609fb90d1edbe86a4
+
+###
+http://localhost:4000/wallet
